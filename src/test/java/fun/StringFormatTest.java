@@ -18,7 +18,7 @@ public class StringFormatTest {
 		String tempxpath = String.format(newxPath, 30);
 		System.out.println(tempxpath);
 
-		for (int i = 1; i < 20; i++) {
+		for (int i = 1; i < 30; i++) {
 		 String realXpath = String.format(newxPath, i);
 		System.out.println(realXpath);
 		}
