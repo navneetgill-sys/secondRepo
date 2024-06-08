@@ -15,7 +15,7 @@ public class StringFormatTest {
 	public void t2() {
 		String newxPath = "//tbody/tr[%d]/td";
 		System.out.println(newxPath);
-		String tempxpath = String.format(newxPath, 30);
+		String tempxpath = String.format(newxPath, 90);
 		System.out.println(tempxpath);
 
 		for (int i = 1; i < 30; i++) {
