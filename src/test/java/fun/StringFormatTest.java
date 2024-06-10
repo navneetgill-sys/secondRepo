@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 public class StringFormatTest {
 
-	String xpath = "//tbody/tr[" + 2 + "]/td";
+	String xpath = "//tbody/tr[" + 2 + "]/t2";
 
 	@Test
 	public void t1() {
