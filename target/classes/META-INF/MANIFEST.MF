@@ -1,4 +1,5 @@
 Manifest-Version: 1.0
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 Build-Jdk-Spec: 22
 =======
@@ -8,5 +9,8 @@ Build-Jdk-Spec: 17
 Build-Jdk-Spec: 22
 >>>>>>> test
 >>>>>>> test2
+=======
+Build-Jdk-Spec: 17
+>>>>>>> Stashed changes
 Created-By: Maven Integration for Eclipse
 

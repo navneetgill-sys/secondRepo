@@ -23,7 +23,7 @@ public class StringFormatTest {
 		System.out.println(tempxpath);
 		System.out.println("tempxpath1");
 		System.out.println("tempxpath2");
-		
+
 
 
 		System.out.println("merge  me tempxpath");
