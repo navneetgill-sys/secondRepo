@@ -4,17 +4,17 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Album {
-	private Integer userId;
+	private Integer UserId;
 	private String title;
 	private Integer id;
 	private Map<String, Object> additionalProperties = new HashMap<String, Object>();
 
 	public Integer getUserId() {
-	return userId;
+	return UserId;
 	}
 
 	public void setUserId(Integer userId) {
-	this.userId = userId;
+	this.UserId = userId;
 	}
 
 	public String getTitle() {

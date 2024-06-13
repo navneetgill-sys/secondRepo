@@ -4,7 +4,9 @@ import org.testng.annotations.Test;
 
 public class StringFormatTest {
 
-	String xpath = "//tbody/tr[" + 2 + "]/t2";
+
+	String xpath = "//tbody/tr[" + 2 + "]/tf";
+
 
 	@Test
 	public void t1() {
@@ -16,7 +18,8 @@ public class StringFormatTest {
 		String newxPath = "//tbody/tr[%d]/td";
 		System.out.println(newxPath);
 		String tempxpath = String.format(newxPath, 90);
-		System.out.println(tempxpath);
+		System.out.println("merge  me tempxpath");
+		
 
 		for (int i = 1; i < 30; i++) {
 		 String realXpath = String.format(newxPath, i);
