@@ -25,6 +25,7 @@ public class StringFormatTest {
 		System.out.println("tempxpath2");
 
 
+
 		System.out.println("merge  me tempxpath");
 		
 
@@ -32,6 +33,11 @@ public class StringFormatTest {
 		for (int i = 1; i < 30; i++) {
 		 String realXpath = String.format(newxPath, i);
 		System.out.println(realXpath);
+		System.out.println("realXpathtest");
+		System.out.println("realXpathtest2");
+		System.out.println(realXpath);
+		System.out.println("realXpathtest");
+		System.out.println("realXpathtest2");
 		}
 	}
 	@Test
