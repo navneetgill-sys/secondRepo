@@ -19,6 +19,13 @@ public class StringFormatTest {
 		String newxPath = "//tbody/tr[%d]/td";
 		System.out.println(newxPath);
 		String tempxpath = String.format(newxPath, 90);
+<<<<<<< Updated upstream
+=======
+		System.out.println(tempxpath);
+		System.out.println("tempxpath1");
+		System.out.println("tempxpath2");
+		
+>>>>>>> Stashed changes
 
 		System.out.println("merge  me tempxpath");
 		
